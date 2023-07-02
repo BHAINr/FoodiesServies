@@ -1,0 +1,17 @@
+.Container{
+    margin-top: 10vmax;
+    margin-left: 10vmax;
+    margin-right: 15vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.card>img{
+    width: 15vmax;
+    height: 10vmax;
+    
+}

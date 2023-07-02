@@ -1,0 +1,19 @@
+#container>h2{
+    text-align: center;
+    justify-content: center;
+    color: brown;
+    
+    
+}
+.cart{
+    margin-left: 3vmax;
+    background-color: aliceblue;
+    width: 30vmax;
+    height: 30vmax;
+    justify-content: center;
+    text-align: center;
+}
+.cart>a:hover{
+    border-radius: 0.2px solid black;
+    color: antiquewhite;
+}

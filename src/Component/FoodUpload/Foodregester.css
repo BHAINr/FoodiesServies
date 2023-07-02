@@ -1,0 +1,61 @@
+.container {
+    width: 40vmax;
+}
+
+.logo {
+    margin-bottom: 2vmax;
+}
+
+#fod {
+    margin-top: -4vmax;
+}
+
+.row {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 40vmax;
+}
+
+.row>div {
+    margin-top: -2vmax;
+}
+
+.row>Form {
+    width: 22vmax;
+}
+
+.mbb {
+    width: 20vmax;
+    margin-bottom: 2vmax;
+    height: 2vmax;
+}
+
+@media Screen and (max-width:1000px){
+    .row>Form {
+        width: 35vmax;
+    }
+    .row>button{
+        margin-top: 6vmax;
+    }
+    .mbb {
+        width: 30vmax;
+        margin-bottom: 2vmax;
+        height: 4vmax;
+    }
+}
+@media Screen and (max-width:550px){
+    .row>Form {
+        width: 44vmax;
+    }
+    .mbb {
+        width: 30vmax;
+        margin-bottom: 2vmax;
+        height: 4vmax;
+    }
+    .bu{
+        margin-top: 6vmax;
+    }
+ 
+}

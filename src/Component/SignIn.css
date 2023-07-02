@@ -1,0 +1,197 @@
+.container {
+    text-align: center;
+    justify-content: center;
+    margin-top: 10vmax;
+    display: flex;
+    flex-direction: column;
+    width: 40vmax;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vmax;
+    text-align: center;
+    justify-content: center;
+
+}
+.tagm1{
+    font-size: 1.6vmax;
+}
+
+.logo>img {
+    width: 4vmax;
+    height: 4vmax;
+    margin-top: -3vmax;
+}
+
+.logo>h2 {
+    margin-top: -2vmax;
+}
+
+.row>h1 {
+    margin-top: 5vmax;
+}
+
+.line {
+    border-bottom: 1px solid green;
+    height: 50px;
+    width: 33vmax;
+    margin-left: 3.6vmax;
+    margin-bottom: 1vmax;
+
+}
+
+#tag1 {
+    margin-top: -1.5vmax;
+
+}
+
+#an {
+    margin-top: -1vmax;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    width: 20vmax;
+    height: 30vmax;
+    margin-left:55vmax;
+    margin-bottom: 2vmax;
+    margin-top: 0vmax;
+    background-color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.row>input {
+    margin-left: 2vmax;
+    margin-right: 2vmax;
+    padding: 0.3vmax;
+
+}
+
+.row>a {
+    margin-bottom: 2vmax;
+
+    padding: 0.3vmax;
+}
+
+.row>a>button:hover {
+    background-color: floralwhite;
+}
+
+.row>button {
+    width: 6vmax;
+    margin-left: 16vmax;
+    margin-top: 2vmax;
+
+}
+
+#tag1 {
+    font-size: 2vmax;
+    margin-top: 0.2vmax;
+    margin-bottom: 0.2vmax;
+}
+
+.row>p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width:850px) {
+    .row {
+        height: 60vmax;
+        width: 45vmax;
+    }
+
+    .line{
+        border-bottom: 1px solid green;
+        height: 50px;
+        width: 33vmax;
+    }
+
+    .logo>img {
+        width: 6vmax;
+        height: 6vmax;
+    }
+    .row>button{
+        width: 10vmax;
+    }
+    
+}
+
+@media screen and (max-width:550px) {
+    .container {
+        margin-right: 2vmax;
+    }
+
+    .row {
+        margin-left: 10vmax;
+        height: 70vmax;
+        width: 60vmax;
+    }
+
+    .row>a>button {
+        padding: 0.1px;
+    }
+    .logo>h2{
+        margin-top: 2vmax;
+    }
+    .line{
+        margin-top: -4vmax;
+    }
+    .row>button{
+        margin-bottom: 20vmax;
+        width: 10vmax;
+    }
+    
+    .line {
+        margin-top: -3vmax;
+        
+        border-bottom: 1px solid green;
+        height: 500px;
+        width: 33vmax;
+    }
+
+    .logo>img {
+        margin-top: 2vmax;
+        width: 6vmax;
+        height: 6vmax;
+    }
+
+    .row>a>button {
+        margin-top: -1vmax;
+    }
+    .row>a>button{
+        width: 10vmax;
+    }
+
+
+}
+
+@media screen and (max-width:350px) {
+    .container {
+        margin-right: 5vmax;
+        margin-top:10vmax;
+    }
+   
+    .tagm1{
+        font-size: 2vmax solid;
+    }
+    .row>input{
+        border: 1px solid;
+    }
+    .row{
+        width: 42vmax;
+        margin-left:3vmax;
+        
+    }
+    .line{
+        width: 35vmax;
+        margin-top: -2vmax;
+    }
+    .row>a>button{
+        width: 20vmax;
+    }
+}

@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+.row1{
+    justify-content: center;
+    text-align: center;
+    
+}
+#comm{
+    margin-left: 60vmax;
+}
+.row1>h2{
+    margin-top: 4vmax;
+    margin-left: 60vmax;
+}
+.loginEmail{
+    justify-content: center;
+    text-align: center;
+    margin-left: 60vmax;
+}
+.textarea{
+    width: 20vmax;
+    height:10vmax;
+}
+.loginEmail>input{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vmax;
+    width: 20vmax;
+    height: 2vmax;
+}
+.loginfome>div>div>input:hover{
+    background-color: aliceblue;
+    
+}
+
+@media Screen and (max-width:750px){
+    .loginEmail>input{
+        width: 25vmax;
+        height: 4vmax;
+    }
+    .textarea{
+        width: 25vmax;
+        height:15vmax;
+        margin-bottom: 1vmax;
+    }
+}
+@media Screen and (max-width:550px){
+    .row1>form{
+        position: relative;
+        bottom: 0;
+        margin-top: 1vmax;
+    }
+    
+    .loginEmail>input{
+        width: 40vmax;
+        height: 6vmax;
+        margin-bottom: 1vmax;
+        border: 2px solid black;
+    }
+    .textarea{
+        width: 40vmax;
+        height:20vmax;
+        margin-bottom: 1vmax;
+        border: 2px solid black;
+    }
+    
+}

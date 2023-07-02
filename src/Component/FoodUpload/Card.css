@@ -1,0 +1,27 @@
+.card{
+    
+    width: 20vmax;
+    
+}
+.card:hover{
+    transform:translateX(0.2)
+}
+.card>header>img{
+    margin-top: 2vmax;
+}
+.card>footer>button{
+    margin-bottom: 2vmax;
+    width: 5vmax;
+}
+.cardBody{
+    margin-top: 10vmax;
+    margin-left: 10vmax;
+    display: flex;
+    flex-direction: column;
+    width: 20vmax;
+}
+.cardBody>div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

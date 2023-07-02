@@ -1,0 +1,29 @@
+.logout1 {
+    margin-top: 3vmax;
+     position: -webkit-sticky;
+     position: sticky;
+     left: 0;
+     border: 1vmax;
+     border-radius: 1vmax solid black;
+ }
+ 
+ 
+ .logout {
+     border-radius: 1vmax solid black;
+     position: -webkit-sticky;
+     position: sticky;
+     
+ }
+ 
+ .logout:hover {
+     border-radius: 2vmax solid black;
+ }
+ 
+ @media Screen and (max-width:700px) {
+     .logout1 {
+         margin-top: 10vmax;
+     }
+     .logout{
+         font-size: 3vmax;
+     }
+ }
